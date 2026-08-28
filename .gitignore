@@ -1,0 +1,20 @@
+﻿# Build outputs do .NET
+bin/
+obj/
+*.user
+
+# Dados baixados/gerados — nunca versionar dataset bruto
+/data/
+*.csv
+*.rar
+*.tar.gz
+
+# Segredos locais (connection strings reais)
+appsettings.json
+appsettings.*.local.json
+.env
+
+# IDE
+.vs/
+.vscode/*
+!.vscode/extensions.json

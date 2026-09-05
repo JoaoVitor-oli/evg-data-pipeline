@@ -40,4 +40,16 @@ public class Matricula
 
     [Name("municipio_pessoa")]
     public string? MunicipioPessoa { get; set; }
+
+    [Name("deficiencia")]
+    public string? Deficiencia { get; set; }
+
+    [Name("nacionalidade")]
+    public string? Nacionalidade { get; set; }
+
+    [Name("conteudista")]
+    public string? Conteudista { get; set; }
+
+    [Name("tematica")]
+    public string? Tematica { get; set; }
 }
